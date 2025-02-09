@@ -14,6 +14,7 @@ const PAGE_SIZE=10;
 const About = () => {
     const [products,setProducts]=useState([]);
     const [currentPage,setCurrentPage]=useState(0);
+    
             const fetchData = async()=>
             {
                 const data = await fetch(" https://dummyjson.com/products?limit=50");
